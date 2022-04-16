@@ -1,0 +1,141 @@
+.cover-image{
+    background-image: url("coverimg.jpg");
+    height: 400px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.c-image-cont{
+    background-color: white;
+    width: 410px;
+    padding: 15px ;
+    position: absolute;
+    top:60px;
+    left: 53px;
+    box-shadow: 5px 10px 5px  rgba(202, 194, 194, 0.877);
+}
+.container{
+    max-width: 98% !important;
+}
+
+.links span{
+    padding:10px;
+}
+.links span:first-child{
+    padding-left: 0;
+}
+.links a{
+    text-decoration: none;
+    color: rgb(145, 137, 137);
+    font-weight: bolder;
+}
+.links a:hover{
+    color:black;
+    text-decoration: none;
+}
+.navbar{
+    width: 100%;
+}
+.slide-container{
+    padding:32px;
+    margin:20px;
+    border:0.7px solid;
+    border-color: rgb(204, 195, 195);
+}
+.slider p{
+    max-width: 70%;
+}
+.slider h2{
+    font-weight: bolder;
+}
+.slider a {
+    padding: 5px 15px ;
+    border:.5px solid;
+    color: #1c1d1f;
+}
+.slider a:hover{
+    background-color: #aeb0b6;
+    color: black;
+}
+.slider img{
+    height:150px;
+}
+
+
+.mid{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:4.5rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color:  #f7f9fa;
+    height: 50px;
+}
+.mid h6{
+    font-weight: bolder;
+    width: 60%;
+}
+.mid span{
+    padding-right:20px;
+}
+.mid span ion-icon{
+    border:1px solid black;
+    border-radius:50%;
+    padding:10px;
+    background-color: rgb(216, 206, 206);
+}
+
+.second-slider img{
+    height: 150px;
+}
+
+.top-categories .container{
+    font-weight: bold;
+    transition: transform 0.2s ;
+}
+
+
+.top-categories .container img:hover{
+     transform:scale(1.05)
+}
+.features-cat .container{
+    background-color: #f1f3f8;
+}
+.features-link a {
+    padding: 5px 15px ;
+    border:.5px solid;
+    color: #1c1d1f;
+}
+.man-section img{
+    float: right;
+}
+.human-section img{
+    float: right;
+}
+.women-section img{
+    float:right;
+}
+
+.pl-5 h1{
+    font-weight: bolder;
+}
+.companies{
+    background-color: #f1f3f8;
+}
+.companies img{
+    padding:10px;
+}
+.footer {
+    background-color: #1c1d1f ;
+    color:white;
+}
+.footer  li a{
+    color: white;
+}
+
+
+.features-link a:hover {
+   background-color: grey;
+}
